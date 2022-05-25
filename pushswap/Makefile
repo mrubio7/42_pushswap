@@ -5,7 +5,7 @@ CC = gcc -Werror -Wextra -Wall
 SRC =	main.c \
 		printstacks.c \
 		pushswap.c \
-		operations_a.c 
+		operations_push.c 
 
 LIB = src/libft/libft.a
 
