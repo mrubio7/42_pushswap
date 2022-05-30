@@ -6,7 +6,7 @@
 /*   By: mrubio <mrubio@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/16 23:57:53 by mrubio            #+#    #+#             */
-/*   Updated: 2022/05/23 15:20:59 by mrubio           ###   ########.fr       */
+/*   Updated: 2022/05/25 18:24:28 by mrubio           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ void	main_pushswap(int argc, char *argv[])
 	parse_pushswap(a, argc, argv);
 	b->size = 0;
 	b->array = NULL;
-	pushswap(a, b);
+	Pushswap(a, b);
 	free(a->array);
 	free(a);
 	free(b->array);

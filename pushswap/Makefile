@@ -5,7 +5,11 @@ CC = gcc -Werror -Wextra -Wall
 SRC =	main.c \
 		printstacks.c \
 		pushswap.c \
-		operations_push.c 
+		operations_push.c \
+		operations_swap.c \
+		operations_rotate.c \
+		operations_reverserotate.c \
+		sorting.c
 
 LIB = src/libft/libft.a
 
